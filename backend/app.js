@@ -10,7 +10,13 @@ const { globalLimiter, authLimiter } = require("./middleware/rateLimiter");
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "https://task-manager1-eta.vercel.app"
+  ],
+  credentials: true,
+}));
 app.use(express.json());
 app.use(globalLimiter);
 
