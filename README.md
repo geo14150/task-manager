@@ -45,7 +45,7 @@ npm install
 
 Δημιούργησε backend/.env:
 
-envMONGO_URI=mongodb+srv://<user>:<password>@cluster0.xxxxx.mongodb.net/taskmanager?appName=Cluster0
+MONGO_URI=mongodb+srv://<user>:<password>@cluster0.xxxxx.mongodb.net/taskmanager?appName=Cluster0
 PORT=5000
 
 JWT_SECRET=your_super_secret_jwt_key
