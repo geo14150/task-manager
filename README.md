@@ -42,10 +42,10 @@ npm install
 envMONGO_URI=mongodb+srv://<user>:<password>@cluster0.xxxxx.mongodb.net/taskmanager?appName=Cluster0
 PORT=5000
 JWT_SECRET=your_super_secret_jwt_key
-# REDIS_URL=rediss://default:<password>@<host>:6379  # Προαιρετικό
+REDIS_URL=rediss://default:<password>@<host>:6379 
 bashnpm run dev
-# Server: http://localhost:5000
-# Swagger: http://localhost:5000/api-docs
+Server: http://localhost:5000
+
 Frontend Setup
 bashcd frontend
 npm install
