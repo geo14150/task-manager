@@ -53,8 +53,12 @@ npm run dev
 App: http://localhost:5173
 
 # 🧪 Tests
+
 cd backend
+
 npm test
+
 Αναμενόμενο αποτέλεσμα:
+
 Test Suites: 2 passed, 2 total
 Tests:       9 passed, 9 total
