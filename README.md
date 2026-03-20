@@ -1,7 +1,7 @@
 Built a Full-Stack Task Management Platform using the MERN stack with JWT authentication, Kanban board UI, Redis caching, rate limiting, 
 Winston logging, Jest testing (9/9), and Swagger documentation. Deployed on Vercel + Render.
 
-Feature
+# Feature
 ✅Full-Stack MERN Application
 ✅JWT Authentication (Register/Login)
 ✅Kanban Board με 3 columns
@@ -17,7 +17,7 @@ Feature
 💻 GitHub:    https://github.com/geo14150/task-manager
 📡 API Docs:  https://taskflow-backend-0krt.onrender.com/api-docs
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 Frontend
 TechnologyPurposeReact 18 + ViteUI FrameworkReact Router DOMClient-side routingTailwind CSSStylingAxiosHTTP requestsContext APIGlobal state (auth)
 Backend
@@ -50,7 +50,7 @@ Frontend Setup
 bashcd frontend
 npm install
 npm run dev
-# App: http://localhost:5173
+App: http://localhost:5173
 
 # 🧪 Tests
 cd backend
