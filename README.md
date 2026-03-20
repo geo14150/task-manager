@@ -22,3 +22,39 @@ Frontend
 TechnologyPurposeReact 18 + ViteUI FrameworkReact Router DOMClient-side routingTailwind CSSStylingAxiosHTTP requestsContext APIGlobal state (auth)
 Backend
 TechnologyPurposeNode.js + ExpressServer & REST APIMongoDB + MongooseDatabaseRedis (Upstash)CachingJWT + bcryptjsAuthenticationexpress-rate-limitRate limitingWinston + MorganLoggingJest + SupertestTestingSwagger UIAPI Documentation
+
+# 🚀 Local Development
+
+Node.js v18+
+MongoDB Atlas account (δωρεάν)
+Git
+
+Εγκατάσταση
+
+# Clone το repository
+git clone https://github.com/geo14150/task-manager.git
+cd task-manager
+
+# Backend Setup
+cd backend
+npm install
+Δημιούργησε backend/.env:
+envMONGO_URI=mongodb+srv://<user>:<password>@cluster0.xxxxx.mongodb.net/taskmanager?appName=Cluster0
+PORT=5000
+JWT_SECRET=your_super_secret_jwt_key
+# REDIS_URL=rediss://default:<password>@<host>:6379  # Προαιρετικό
+bashnpm run dev
+# Server: http://localhost:5000
+# Swagger: http://localhost:5000/api-docs
+Frontend Setup
+bashcd frontend
+npm install
+npm run dev
+# App: http://localhost:5173
+
+# 🧪 Tests
+cd backend
+npm test
+Αναμενόμενο αποτέλεσμα:
+Test Suites: 2 passed, 2 total
+Tests:       9 passed, 9 total
